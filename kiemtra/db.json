@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "description": "Nội dung 1",
+      "image": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "description": "Nội dung 2",
+      "image": "https://picsum.photos/id/236/200/300"
+    },
+    {
+      "id": 3,
+      "name": "Product 3 update",
+      "price": 300,
+      "image": "https://picsum.photos/id/238/200/300",
+      "description": "Nội dung 3"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 300,
+      "description": "Nội dung 4",
+      "image": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 300,
+      "description": "Nội dung 5",
+      "image": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 300,
+      "description": "Nội dung 6",
+      "image": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 300,
+      "description": "Nội dung 7",
+      "image": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 300,
+      "description": "Nội dung 8",
+      "image": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "name": "Sản phâm test",
+      "price": 123,
+      "image": "https://picsum.photos/id/237/200/300",
+      "description": "Sản phẩm thử",
+      "id": 9
+    },
+    {
+      "name": "Sản phẩm 11",
+      "price": 11,
+      "image": "https://picsum.photos/id/233/200/300",
+      "description": "11",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$xCkr756MyMwZUA9MLbTQ.eYHlqzS9gW9TOEglanQKbTXuWo68O8/S",
+      "confirmPassword": "1234567",
+      "id": 1
+    },
+    {
+      "email": "minh@gmail.com",
+      "password": "$2a$10$6S2AZprlMG7Fc3U1yFmxCeCbEuZkX9bg0maer2fgRN57UcquUHQfa",
+      "confirmPassword": "111111",
+      "id": 2
+    }
+  ]
+}

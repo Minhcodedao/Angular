@@ -1,0 +1,31 @@
+<div class="container">
+    <button class="btn btn-success my-3" (click)="navigateToAddProduct()">Thêm sản phẩm</button>
+    <table class="table mx-auto mt-5">
+        <thead>
+          <tr>
+            <th scope="col">STT</th>
+            <th scope="col">Tên sản phẩm</th>
+            <th scope="col">Ảnh sản phẩm</th>
+            <th scope="col">Giá sản phẩm</th>
+            <th scope="col">Nội dung</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{product.name}}</td>
+            <td><img [src]=product.image [alt]="product.name" width="150px" height="150px"/></td>
+            <td>{{product.price}}</td>
+            
+            <td>{{product.description}}</td>
+            <td>
+                <button class="btn btn-primary" (click)="onEdit(product.id!)">Cập nhật</button>
+                <button class="btn btn-danger" (click)="onRemove(product.id!)">Xóa</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
+
